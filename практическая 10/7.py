@@ -12,6 +12,6 @@ def prime_factor(a, divisor=2):
         prime_factor(a, divisor + 1)
 
 
-nums = int(input("Введите нат число: "))
+nums = int(input("Введите натур число: "))
 print(f"{nums} = ", end="")
 prime_factor(nums)

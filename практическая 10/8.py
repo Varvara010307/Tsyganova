@@ -15,7 +15,7 @@ def getw(n):
     return countw(n, n)
 
 
-n = int(input("Введите нат число:\n"))
+n = int(input("Введите натур число:\n"))
 
 num_ways = getw(n)
 print(f"Кол-во разложений: {num_ways}")

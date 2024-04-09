@@ -1,0 +1,13 @@
+import random
+height_people = [random.randint(70, 140) for _ in range(25)]
+fat_people = []
+other_people = []
+for height in height_people:
+    if height > 100:
+        fat_people.append(height)
+    else:
+        other_people.append(height)
+mid_height_fat = sum(fat_people) / len(fat_people)
+mid_height_other = sum(other_people) / len(other_people)
+print(f"Средняя масса полных людей: {mid_height_fat}")
+print(f"Средняя масса остальных людей: {mid_height_other}")

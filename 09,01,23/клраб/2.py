@@ -1,5 +1,6 @@
+'''Ввести с клавиатуры координаты двух точек (A и B) на плоскости (вещественные числа). Вычислить длину отрезка AB.'''
 import math
-x1,y1=[int(i)for i in input().split()]
-x2,y2=[int(j)for j in input().split()]
+x1,y1=[int(i)for i in input('координаты точки А').split()]
+x2,y2=[int(j)for j in input('координаты точки В').split()]
 d=((x2-x1)**2 + (y2-y1)**2)**0.5
-print ('длина=', d)
+print ('длина отрезка АВ=', d)

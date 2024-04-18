@@ -1,0 +1,7 @@
+import random
+n = int(input("Введите количество элементов в массиве: "))
+A = [random.randint(1, 100) for _ in range(n)]
+sum_A = n * (n + 1) // 2
+print(f"Массив:")
+print(' '.join(map(str, A)))
+print(f"Знакопеременная сумма элементов массива А равна: {sum_A}")
